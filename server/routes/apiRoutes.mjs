@@ -2,7 +2,7 @@ import express from 'express';
 const router = express.Router();
 import clientDBController from '../controllers/clientDBController.mjs';
 import ourDBController from '../controllers/ourDBController.js';
-import redisController from '../controllers/redisController.mjs';
+// import redisController from '../controllers/redisController.mjs';
 import authenticationMiddleware from '../middleware/auth.js';
   
 
